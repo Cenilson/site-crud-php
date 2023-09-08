@@ -1,0 +1,148 @@
+.p1 {
+  font-family: "Constantia";
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 50px;
+}
+
+.p2{
+  font-family: "Constantia";
+  color: rgba(255, 255, 220, 0.9);
+  font-size: 13px;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.p3{
+  font-family: "Constantia" blue;
+  font-size: 20px;
+  font-weight: light;
+  line: in
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.p4{
+  font-family: "Constantia";
+  color: white;
+  font-size: 10px;
+  font-weight: light;
+  text-align: center;
+  padding: 20px 20px;
+}
+.p5{
+  font-family: "Constantia";
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 28.5px;
+  font-weight: light;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+.p6{
+  font-family: "Constantia";
+  color: rgba(255, 255, 220, 0.9);
+  font-size: 15px;
+  font-weight: light;
+  text-align: center;
+}
+
+.form{
+  display: block;
+  font-family: "Constantia";
+  color: white;
+  font-size: 11px;
+  background-color: rgba(0,0,0,.8);
+  width: 180px;
+  border: 3px solid lightblue;
+  border-style: solid;
+  border-radius: none;
+  padding: 35px;
+  padding-top: 30px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.campo, select, textarea {
+  border-style:solid;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(255, 255, 255, .4);
+  border-color: #cccccc;
+  width: 180px;
+  padding: 4px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+  resize: vertical;
+}
+
+.campo:hover {
+  background-color: rgba(255, 255, 255, .5);
+  border-color: #ddddbb;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.titulo-centralizado {
+  text-align: auto;
+}
+
+input[type=text]:focus {
+  border: 1px;
+}
+
+body {
+  background-image: url("../imagens/nature.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+input[type=submit] {
+  background-color: hsla(168,100%,50%);
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 13px;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  cursor: pointer;
+  position: inherit;
+}
+
+input[type=submit]:hover {
+background-color: hsla(190,100%,50%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(100,100,110, .6);
+  text-align: center;
+  font-style: "Constantia" white;
+  padding: 16px;
+}
+
+.nav{
+  position: fixed;
+  left:0;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+}
+
+.nav header{
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  line-height: 70px,
+}
